@@ -73,10 +73,14 @@
             article.dark button.continue:hover {
                 background-color: #95a5a6;
             }
-            .security-liability {
+            article.security-liability {
                 background-image: url(dangerous-shadow.png);
                 background-repeat: no-repeat;
                 background-position: bottom right;
+            }
+            article.logo {
+                background: #efefef;
+                border-top: 1px solid #999;
             }
         </style>
     </head>
@@ -121,6 +125,9 @@
                 <div class="action">
                     <button class="continue">Screw spam! Get passwordless now</button>
                 </div>
+            </article>
+            <article class="logo">
+                <img src="passwordless-big-text.png" onMouseOver="this.src='passwordless-big-dots.png'" onMouseOut="this.src='passwordless-big-text.png'">
             </article>
         </section>
         <!--
