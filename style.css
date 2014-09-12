@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+    font-family: 'Open Sans';
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+section {
+    min-height: 100%;
+}
+section > article {
+    min-height: 110%;
+    text-align: center;
+    padding: 340px 0 110px;
+    position: relative;
+}
+section > article > h1 {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 5em;
+    display: inline-block;
+    max-width: 1000px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    z-index: 5;
+}
+section > article > .content {
+    display: inline-block;
+    width: 600px;
+    margin-left: 600px;
+}
+section > article p {
+    text-align: left;
+}
+.action {
+    margin-top: 90px;
+}
+button.continue, a.continue {
+    background: white;
+    border: 4px solid #999;
+    padding: 15px;
+    font-family: 'Open Sans';
+    border-radius: 10px;
+    color: #999;
+    font-weight: 900;
+    font-size: 1.3em;
+    transition: background 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+button.continue:hover, a.continue:hover {
+    background: #eee;
+}
+
+article.dark {
+    background-color: #7f8c8d;
+    color: white;
+    box-shadow: 0 -100px 100px rgba(0,0,0,0.4) inset;
+}
+article.dark button.continue, article.dark a.continue {
+    background: #7f8c8d;
+    color: white;
+    border-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+article.dark button.continue:hover, article.dark a.continue:hover {
+    background-color: #95a5a6;
+}
+article.security-liability {
+    background-image: url(dangerous-shadow.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+article.logo {
+    background: #efefef;
+    border-top: 1px solid #999;
+}
+input[type=text] {
+    background: white;
+    border: 4px solid #999;
+    padding: 15px;
+    font-family: "Open Sans";
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #999;
+    border-radius: 10px;
+    width: 400px;
+    margin: 15px;
+}
