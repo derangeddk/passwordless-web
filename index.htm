@@ -5,13 +5,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <!--
+        <div id="home"></div>
         <section class="site-header">
             <nav>
-                <a href="">Developer? Why should you integrate with passwordless?</a>
+                <a href="index.htm#home"><img class="header-logo" src="passwordless-small-text.png" onMouseOver="this.src='passwordless-small-dots.png'" onMouseOut="this.src='passwordless-small-text.png'" /></a>
+                <a href="index.htm#signup">Sign up</a>
+                <a href="developer.htm">Developer</a>
             </nav>
         </section>
-        -->
         <section class="user-site-content">
             <article class="hard-to-remember">
                 <h1>You don't have to remember your password.</h1>
@@ -48,9 +49,13 @@
             </article>
             <article class="signup" id="signup">
                 <h1>Get your identity now</h1>
+                <article class="content">
+                    <p>Reserve your identity now and get updates when we launch. You need to enter your email so we can let you know when that happens.</p>
+                </article>
                 <div class="action">
                     <input type="text" placeholder="passwordless identity"><br>
-                    <button class="continue">Go passwordless</button>
+                    <input type="text" placeholder="email"><br>
+                    <button class="continue">Get notified</button>
                 </div>
             </article>
             <article class="logo">
