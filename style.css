@@ -5,6 +5,7 @@ html {
 body {
     min-height: 100%;
     margin: 20px 0 0 0;
+    background: #f8f8f8;
 }
 .site-header {
     border-bottom: 1px solid #ccc;
