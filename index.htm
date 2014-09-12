@@ -45,7 +45,7 @@
             .action {
                 margin-top: 90px;
             }
-            button.continue {
+            button.continue, a.continue {
                 background: white;
                 border: 4px solid #999;
                 padding: 15px;
@@ -56,8 +56,10 @@
                 font-size: 1.3em;
                 transition: background 0.2s;
                 cursor: pointer;
+                text-decoration: none;
+                display: inline-block;
             }
-            button.continue:hover {
+            button.continue:hover, a.continue:hover {
                 background: #eee;
             }
             
@@ -65,12 +67,12 @@
                 background-color: #7f8c8d;
                 color: white;
             }
-            article.dark button.continue {
+            article.dark button.continue, article.dark a.continue {
                 background: #7f8c8d;
                 color: white;
                 border-color: white;
             }
-            article.dark button.continue:hover {
+            article.dark button.continue:hover, article.dark a.continue:hover {
                 background-color: #95a5a6;
             }
             article.security-liability {
@@ -81,6 +83,18 @@
             article.logo {
                 background: #efefef;
                 border-top: 1px solid #999;
+            }
+            input[type=text] {
+                background: white;
+                border: 4px solid #999;
+                padding: 15px;
+                font-family: "Open Sans";
+                font-size: 1.3em;
+                font-weight: 900;
+                color: #999;
+                border-radius: 10px;
+                width: 400px;
+                margin: 15px;
             }
         </style>
     </head>
@@ -101,7 +115,7 @@
                     <p>The solution has been right in front of us</p>
                 </article>
                 <div class="action">
-                    <button class="continue">Forget passwords and move on</button>
+                    <a href="#signup" class="continue">Forget passwords and move on</a>
                 </div>
             </article>
             <article class="security-liability dark">
@@ -112,7 +126,7 @@
                     <p>Keys you can throw away are much safer</p>
                 </article>
                 <div class="action">
-                    <button class="continue">Get secure by dropping passwords</button>
+                    <a href="#signup" class="continue">Get secure by dropping passwords</a>
                 </div>
             </article>
             <article class="hide-your-email">
@@ -123,7 +137,14 @@
                     <p>We care about privacy. Nobody else needs to know how to contact you.</p>
                 </article>
                 <div class="action">
-                    <button class="continue">Screw spam! Get passwordless now</button>
+                    <a class="continue" href="#signup">Screw spam! Get passwordless now</a>
+                </div>
+            </article>
+            <article class="signup" id="signup">
+                <h1>Get your identity now</h1>
+                <div class="action">
+                    <input type="text" placeholder="passwordless identity"><br>
+                    <button class="continue">Go passwordless</button>
                 </div>
             </article>
             <article class="logo">
