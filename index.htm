@@ -5,12 +5,14 @@
         <title>Get rid of your passwords right now! # passwordless</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://raw.githubusercontent.com/cferdinandi/smooth-scroll/master/dist/js/bind-polyfill.min.js"></script>
+        <script src="https://raw.githubusercontent.com/cferdinandi/smooth-scroll/master/dist/js/smooth-scroll.min.js"></script>
     </head>
     <body>
         <div id="home"></div>
         <section class="site-header">
             <nav>
-                <a href="index.htm#home"><img class="header-logo" src="passwordless-small-text.png" onMouseOver="this.src='passwordless-small-dots.png'" onMouseOut="this.src='passwordless-small-text.png'" /></a>
+                <a data-scroll href="index.htm#home"><img class="header-logo" src="passwordless-small-text.png" onMouseOver="this.src='passwordless-small-dots.png'" onMouseOut="this.src='passwordless-small-text.png'" /></a>
                 <a href="index.htm#signup">Sign up</a>
                 <a href="developer.htm">Developer</a>
             </nav>
@@ -37,7 +39,7 @@
                     </p>
                 </article>
                 <div class="action">
-                    <a href="#signup" class="continue">Forget passwords and move on</a>
+                    <a href="#signup" data-scroll class="continue">Forget passwords and move on</a>
                 </div>
             </article>
             <article class="security-liability dark">
@@ -48,7 +50,7 @@
                     <p>Keys you can throw away are much safer</p>
                 </article>
                 <div class="action">
-                    <a href="#signup" class="continue">Get secure by dropping passwords</a>
+                    <a href="#signup" data-scroll class="continue">Get secure by dropping passwords</a>
                 </div>
             </article>
             <article class="hide-your-email">
@@ -59,7 +61,7 @@
                     <p>We care about privacy. Nobody else needs to know how to contact you.</p>
                 </article>
                 <div class="action">
-                    <a class="continue" href="#signup">Screw spam! Get passwordless now</a>
+                    <a class="continue" data-scroll href="#signup">Screw spam! Get passwordless now</a>
                 </div>
             </article>
             <div class="separator"></div>
@@ -99,5 +101,8 @@
             </article>
         </section>
         -->
+        <script>
+            smoothScroll.init();
+        </script>
     </body>
 </html>
