@@ -1,5 +1,9 @@
+.site-header nav {
+    width: 100%;
+}
 .user-site-content > article {
     padding: 100px 8px 60px;
+    max-width: 100%;
 }
 .user-site-content > article > h1 {
     font-size: 3.4em;
@@ -16,4 +20,10 @@ article.logo {
 }
 article.logo img {
     max-width: 100%;
+}
+
+@media all and (max-width: 450px) {
+    input[type=text] {
+        width: 250px;
+    }
 }
