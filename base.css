@@ -42,33 +42,23 @@ body {
     min-height: 100%;
 }
 .user-site-content > article {
-    min-height: 110%;
     text-align: center;
     padding: 200px 0 110px;
     position: relative;
 }
 .user-site-content > article > h1 {
-    font-family: 'Open Sans';
     font-weight: 100;
-    font-size: 5em;
     display: inline-block;
-    width: 1000px;
     text-align: left;
     margin-bottom: 20px;
     margin-top: 0;
-    margin-left: -170px;
     z-index: 5;
 }
 .user-site-content > article > .content {
     display: inline-block;
-    width: 600px;
-    margin-left: 600px;
 }
 .user-site-content > article p {
     text-align: left;
-}
-.action {
-    margin-top: 90px;
 }
 button.continue, a.continue {
     background: white;
