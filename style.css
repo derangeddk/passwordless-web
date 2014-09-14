@@ -126,3 +126,13 @@ input[type=text] {
     width: 400px;
     margin: 0 0 15px;
 }
+.separator {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 100;
+    margin-top: 100px;
+    color: #ccc;
+}
+.separator:after {
+    content: '—';
+}
