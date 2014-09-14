@@ -17,10 +17,10 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    max-width: 100%;
 }
 .site-header nav {
     display: inline-block;
-    width: 1200px;
     text-align: left;
 }
 .site-header nav a {
@@ -115,6 +115,7 @@ input[type=text] {
     border-radius: 10px;
     width: 400px;
     margin: 0 0 15px;
+    display: inline-block;
 }
 .separator {
     text-align: center;
