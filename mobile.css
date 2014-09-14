@@ -1,0 +1,19 @@
+.user-site-content > article {
+    padding: 100px 8px 60px;
+}
+.user-site-content > article > h1 {
+    font-size: 3.4em;
+    width: 100%;
+}
+.action {
+    margin-top: 40px;
+}
+input[type=text] {
+    max-width: 100%;
+}
+article.logo {
+    max-width: 100%;
+}
+article.logo img {
+    max-width: 100%;
+}

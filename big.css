@@ -1,0 +1,12 @@
+.user-site-content > article > h1 {
+    margin-left: -170px;
+    width: 1000px;
+    font-size: 5em;
+}
+.user-site-content > article > .content {
+    width: 600px;
+    margin-left: 600px;
+}
+.action {
+    margin-top: 90px;
+}
