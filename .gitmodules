@@ -1,0 +1,3 @@
+[submodule "smooth-scroll"]
+	path = smooth-scroll
+	url = git@github.com:cferdinandi/smooth-scroll
